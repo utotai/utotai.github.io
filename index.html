@@ -9,45 +9,138 @@
   <link rel="icon" href="">
   <link rel="apple-touch-icon" href="">
   <link rel="stylesheet" href="./style.css" type="text/css">
+  <link rel="stylesheet" href="https://use.typekit.net/xgy7jde.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
 
 <body>
-  <header class="common-header">
+  <header class="top-header">
     <div class="header-bar">
-      <a href="" class="wrap-logo"><img src="" alt="Ignition"></a>
+      <a href="/" class="wrap-logo"><img src="./img/logo-horizontal.png"></a>
       <div class="btn-menu"><span></span><span></span><span></span></div>
+      <div class="header-sp-bg"></div>
+      <nav class="global-menu-sp">
+        <div class="inner">
+          <ul>
+            <li class="nav-list-1"><a href="./about.html">About</a></li>
+            <li class="nav-list-2"><a href="./service.html">Service</a></li>
+            <li class="nav-list-3"><a href="./for-company.html">採用企業様</a></li>
+            <li class="nav-list-4"><a href="./for-candidates.html">候補者の方</a></li>
+            <li class="nav-list-5"><a href="./contact.html">お問い合わせ</a></li>
+          </ul>
+  
+          <p class="copyright">© OX , Inc. All Rights reserved.</p>
+        </div>
+      </nav>
+  
       <!-- pcメニュー -->
       <nav class="global-menu-pc">
         <ul>
-          <li class="nav-list"><a href="">About</a></li>
-          <li class="nav-list"><a href="">Service</a></li>
-          <li class="nav-list"><a href="">採用企業様</a></li>
-          <li class="nav-list"><a href="">候補者の方</a></li>
-          <li class="nav-list"><a href="">お問い合わせ</a></li>
+          <li class="nav-list"><a href="./about.html">About</a></li>
+          <li class="nav-list"><a href="./service.html">Service</a></li>
+          <li class="nav-list"><a href="./for-company.html">採用企業様</a></li>
+          <li class="nav-list"><a href="./for-candidates.html">候補者の方</a></li>
+          <li class="nav-list"><a href="./contact.html">お問い合わせ</a></li>
         </ul>
       </nav>
     </div>
-    <div class="fv">
-      <div class="inner">
-        <h1>Privacy Policy</h1>
-        <h2>プライバシーポリシー</h2>
+    <!-- ファーストビュー（背景画像） -->
+    <div class="top-header-bg-img">
+      <div class="top-header-txt">
+        <h1>Believe in your potential<br>and move on to the next stage</h1>
+        <h2>自らの可能性を信じ、<br class="br-sp">次のステージへ</h2>
+        <a href="./about.html" class="btn-common btn-top-header">
+          <span class="btn-txt">私たちについて</span>
+          <span class="btn-arrow"></span>
+        </a>
       </div>
     </div>
   </header>
   <div class="wrapper-bg">
     <div class="padding-header-50-150"></div>
-    <main class="privacy">
-      <div class="container">
-        <div class="inner"></div>
+    <section class="top-about">
+      <div class="bg-pc-half-img"><span></span><span></span></div>
+      <div class="inner">
+        <h1 class="common-ttl">About</h1>
+        <div class="bg-sp-img"><span></span><span></span></div>
+        <div class="box-desc">
+          <h2>OXについて</h2>
+          <p>私たちOXについて紹介をしています。</p>
+          <a class="btn-common btn-top-about" href="./about.html">
+            <span class="btn-txt">私たちについて</span>
+            <span class="btn-arrow"></span>
+          </a>
+        </div>
       </div>
-    </main>
+    </section>
+
+    <section class="top-service">
+      <div class="inner">
+        <h1 class="common-ttl">Service</h1>
+      </div>
+      <div class="bg-white"></div>
+      <div class="container-img"><img src="./img/top-service-img.png" alt=""></div>
+      <div class="inner-1220-desc">
+        <div class="box-desc">
+          <h2>OXができること</h2>
+          <p>OXが提供するサービスについて紹介をしています。</p>
+          <a class="btn-common btn-top-service" href="./service.html">
+            <span class="btn-txt">私たちのサービス</span>
+            <span class="btn-arrow"></span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="top-value">
+      <div class="container-img"><img src="./img/top-value-img.png" alt=""></div>
+      <div class="bg-white">
+        <div class="inner-1220-desc">
+          <div class="box-desc">
+            <div class="txt-desc">
+              <h2>OXが提供する価値</h2>
+              <p>OXが提供するサービスについて紹介をしています。</p>
+              <a class="btn-common btn-top-value-1" href="./for-company.html">
+                <span class="btn-txt">採用企業様</span>
+                <span class="btn-arrow"></span>
+              </a>
+              <a class="btn-common btn-top-value-2" href="./for-candidates.html">
+                <span class="btn-txt">候補者の方</span>
+                <span class="btn-arrow"></span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="top-contact">
+      <div class="inner">
+        <h1 class="common-ttl">Contact</h1>
+      </div>
+      <div class="container-img"><img src="./img/common-contact-img.png" alt=""></div>
+      <div class="bg-white">
+        <div class="inner-1220-desc">
+          <div class="box-desc">
+            <div class="txt-desc">
+              <h2>OXに問い合わせる</h2>
+              <p>弊社サービスについての質問・相談は、下記よりお問い合わせください。</p>
+              <a class="btn-common btn-contact" href="./contact.html">
+                <span class="btn-txt">お問合せ</span>
+                <span class="btn-arrow"></span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     <div class="padding-footer-260-160"></div>
+
     <footer>
       <div class="bg-img-sp"><img src="./img/footer-bg-sp-top.png" alt=""></div>
       <div class="bg-color">
         <div class="inner">
-          <a class="container-logo"><img src="./img/logo-vertical.png" alt=""></a>
+          <a class="container-logo" href="/"><img src="./img/logo-vertical.png" alt=""></a>
           <div class="inner-620">
             <div class="box-1">
               <h1>OX株式会社</h1>
@@ -60,12 +153,12 @@
             </div>
             <nav>
               <ul class="container-grid">
-                <li class="nav-list"><a href="">About</a></li>
-                <li class="nav-list-2"><a href="">Service</a></li>
-                <li class="nav-list"><a href="">採用企業様</a></li>
-                <li class="nav-list-4"><a href="">候補者の方</a></li>
-                <li class="nav-list"><a href="">お問い合わせ</a></li>
-                <li class="nav-list-5"><a href="">プライバシーポリシー</a></li>
+                <li class="nav-list"><a href="./about.html">About</a></li>
+                <li class="nav-list-2"><a href="./service.html">Service</a></li>
+                <li class="nav-list"><a href="./for-candidates.html">採用企業様</a></li>
+                <li class="nav-list-4"><a href="./for-company.html">候補者の方</a></li>
+                <li class="nav-list"><a href="./contact.html">お問い合わせ</a></li>
+                <li class="nav-list-5"><a href="./privacy.html">プライバシーポリシー</a></li>
               </ul>
             </nav>
             <li class="nav-list-6"><a href="">プライバシーポリシー</a></li>
@@ -79,6 +172,10 @@
       </div>
       <div class="bg-img-pc"><img src="./img/footer-bg-pc-right.png" alt=""></div>
     </footer>
+
+
+
+
   </div>
 
 
