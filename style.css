@@ -635,8 +635,8 @@ footer .bg-img-sp img {
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
-  -o-object-position: center bottom;
-     object-position: center bottom;
+  -o-object-position: center top;
+     object-position: center top;
 }
 footer .bg-color {
   width: 100%;
@@ -664,6 +664,8 @@ footer .bg-color .inner .container-logo img {
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+  -o-object-position: center bottom;
+     object-position: center bottom;
 }
 footer .bg-color .inner .box-1 {
   display: inline-block;
